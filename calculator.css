@@ -1,0 +1,59 @@
+.number {
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	background: #2F4F4F;
+	padding: 20px;
+	border: 2px solid black;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 3px;
+}
+
+.equals, .delete, .sqrt, .square, .decimal, .clear, .operator {
+	width: 40px;
+	height: 40px;
+	font-size: 15px;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 3px;
+	cursor: pointer;
+	border: 2px solid black;
+	display: inline-block;
+}
+
+.equals, .delete, .clear {
+	background: #8B0000;
+	color: white;
+}
+
+.square, .sqrt, .operator, .decimal {
+	background: #8B4513;
+	color: white;
+}
+
+#display {
+	color: white;
+	position: relative;
+	border: 2px solid black;
+	left: 6px;
+	top: 5px;
+	height: 30px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: right;
+	background-color: #2F4F4F;
+}
+
+.myCalculator {
+	background-color: gray;
+	position: relative;
+	width: 440px;
+	padding: 10px;
+	height: 420px;
+	top: 60px;
+	left: 10px;
+	border: 2px solid;
+}
