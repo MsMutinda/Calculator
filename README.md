@@ -1,6 +1,6 @@
 # Calculator
 
-My first calculator! 😁
+A simple implementation of a working calculator
 
 # Built With
 - HTML
